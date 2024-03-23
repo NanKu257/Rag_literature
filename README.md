@@ -24,9 +24,12 @@ Gather the enzyme kinetics literature you intend to analyze and place it in a de
 Note: I use "pmid" to refer to the literature, but you can adjust it in the code  
 
 # Model Downloads
-ollama pull llama2:7b   
+```
+ollama pull llama2:7b
+```
+```   
 ollama pull nomic-embed-text    
-
+```
 Note: Different models may yield varying outputs, so consider experimenting with alternatives to find the best fit for your data.
 
 # Starting the Project
