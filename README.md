@@ -8,29 +8,27 @@ This project utilizes tools like ([langchain](https://www.langchain.com/)) and (
 Below are the steps to set up the environment, prepare your data, and download the necessary models to begin using or improving the Rag_literature project.
 
 # Environment Setup
-conda create -n rag_literature python==3.10
-conda activate rag_literature
-pip install -r requirements.txt
+conda create -n rag_literature python==3.10  
+conda activate rag_literature  
+pip install -r requirements.txt  
 
 # Data Preparation
-Gather the enzyme kinetics literature you intend to analyze and place it in a designated folder.
+Gather the enzyme kinetics literature you intend to analyze and place it in a designated folder.  
 
-Note: I use "pmid" to refer to the literature, but you can adjust it in the code
+Note: I use "pmid" to refer to the literature, but you can adjust it in the code  
 
 # Model Downloads
-ollama pull llama2:7b
-ollama pull nomic-embed-text
+ollama pull llama2:7b   
+ollama pull nomic-embed-text    
 
 Note: Different models may yield varying outputs, so consider experimenting with alternatives to find the best fit for your data.
 
 # Starting the Project
-Launch the Notebook:
+Launch the Notebook:  
 
-With your environment set up and data prepared, open the rag_literature.ipynb Jupyter notebook to begin experimenting with the RAG technology.
-
-Follow the Notebook Instructions:
-
+With your environment set up and data prepared, open the rag_literature.ipynb Jupyter notebook to begin experimenting with the RAG technology.  
 The notebook contains detailed steps on how to process your literature data using the downloaded models. Follow these instructions carefully to achieve the best results.
 
 # Contribution
-If you're interested in contributing to the improvement of this project, please feel free to make suggestions, submit pull requests, or open issues on our GitHub repository. Your input is invaluable in making Rag_literature a robust tool for scientific research.
+If you're interested in contributing to the improvement of this project, please feel free to make suggestions, submit pull requests, or open issues on our GitHub repository.   
+Your input is invaluable in making Rag_literature a robust tool for scientific research.  
