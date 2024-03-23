@@ -8,9 +8,15 @@ This project utilizes tools like ([langchain](https://www.langchain.com/)) and (
 Below are the steps to set up the environment, prepare your data, and download the necessary models to begin using or improving the Rag_literature project.
 
 # Environment Setup
-conda create -n rag_literature python==3.10  
+```
+conda create -n rag_literature python==3.10
+```
+```
 conda activate rag_literature  
-pip install -r requirements.txt  
+```
+```
+pip install -r requirements.txt
+```  
 
 # Data Preparation
 Gather the enzyme kinetics literature you intend to analyze and place it in a designated folder.  
