@@ -1,4 +1,4 @@
-#Rag_literature Project
+# Rag_literature Project
 
 The Rag_literature project employs Retrieval-Augmented Generation (RAG) technology to systematically extract structured data from scientific literature concerning enzyme kinetics. The ultimate goal is to assemble a comprehensive enzyme kinetics database conducive to deep learning research on enzymes. If proven successful, this methodology could extend to other domains requiring precise data extraction.
 
