@@ -24,10 +24,7 @@ ollama pull nomic-embed-text
 Note: Different models may yield varying outputs, so consider experimenting with alternatives to find the best fit for your data.
 
 # Starting the Project
-Launch the Notebook:  
-
-With your environment set up and data prepared, open the rag_literature.ipynb Jupyter notebook to begin experimenting with the RAG technology.  
-The notebook contains detailed steps on how to process your literature data using the downloaded models. Follow these instructions carefully to achieve the best results.
+Launch the Notebook
 
 # Contribution
 If you're interested in contributing to the improvement of this project, please feel free to make suggestions, submit pull requests, or open issues on our GitHub repository.   
